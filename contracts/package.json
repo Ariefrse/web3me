@@ -1,0 +1,19 @@
+{
+  "name": "communicrypt-contracts",
+  "version": "1.0.0",
+  "description": "Blockchain contracts for community donations",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.2",
+    "hardhat": "^2.16.1",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}
